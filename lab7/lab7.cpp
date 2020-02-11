@@ -56,7 +56,5 @@ struct TStudent {
 
 int main() {
     std::cout << "Hello World!\n";
-    auto t = ;
-    std::time_t end_time = std::
     
 }

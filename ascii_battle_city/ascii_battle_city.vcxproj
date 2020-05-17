@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{A5BF5C36-F0CE-4D1E-A81D-2F8F761C0D7B}</ProjectGuid>
+    <ProjectGuid>{5D7B43D6-C634-4774-A6A0-8D20D8EDD1A1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>lab10</RootNamespace>
+    <RootNamespace>asciibattlecity</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,15 +147,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lab10.cpp" />
+    <ClCompile Include="ascii_battle_city.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="qwe_array.h" />
     <ClInclude Include="qwe_console.h" />
-    <ClInclude Include="qwe_getter.h" />
-    <ClInclude Include="qwe_profiler.h" />
-    <ClInclude Include="qwe_random.h" />
-    <ClInclude Include="qwe_simple_menu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
